@@ -175,7 +175,6 @@ def build():
         requirements()
         syncdb()
         migrate()
-        filldb()
 
 
 @task
